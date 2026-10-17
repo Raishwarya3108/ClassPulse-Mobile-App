@@ -1,16 +1,12 @@
-# ClassPulse – Week 3 Database Design and API Integration
+# ClassPulse Week 4 Prototype
 
-Includes the Week 3 report and data-flow diagram.
+This package contains:
+- `ClassPulse_Week4_Prototype_Report.docx` — Word report with prototype screenshots and implementation details.
+- `ClassPulse_Prototype.html` — clickable browser prototype.
+- `screenshots/` — five UI screenshots for the report and GitHub repository.
 
-## Contents
-- Database structure and JSON nodes
-- Relationships and sample records
-- Data-flow diagram
-- Planned API operations and examples
-- Integration workflow
-- Security and validation plan
+## Run the prototype
+Open `ClassPulse_Prototype.html` in Chrome, Edge, or another modern browser. Use the navigation buttons to explore Dashboard, Staff, Attendance, Leave, and Alternate Staff. Add Staff, save attendance, approve/reject leave, and assign alternate staff are demo interactions.
 
-## Technology Plan
-React Native, Firebase Authentication, Firebase Realtime Database, and optional Cloud Functions.
-
-The API routes are planned logical operations, not claims of deployed endpoints.
+## Important scope note
+This is a front-end prototype using sample data. It does not connect to Firebase or a live backend. Data changes are only for demonstration and are not permanently stored. The proposed database/API design from Week 3 is a plan for future integration.
